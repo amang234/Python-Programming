@@ -1,4 +1,4 @@
-# Write a program to convert the temperature from celcius to fahrenhiet
+# Write a program to convert the temperature from celcius to fahrenheit
 Celcius = float(input("Enter the temperature in Celcius: "))
-Fahrenhiet = (9/5) * Celcius + 32
-print("The temperature in fahrenheit will be", Fahrenhiet, "*F")
+Fahrenheit = (9/5) * Celcius + 32
+print("The temperature in fahrenheit will be", Fahrenheit, "*F")
