@@ -26,3 +26,20 @@ elif Cost_Price - Selling_Price == 0:
     print("No Profit No Loss")
 else:
     print("There's a profit of", Selling_Price - Cost_Price)
+
+# Take input percentage of a student and print the Grade according to marks:
+# A 81-100 Very Good
+# B 61-80 Good
+# C 41-60 Average
+# D <=40 Fail
+
+Marks = int(input("Enter your Marks: "))
+
+if Marks <= 40:
+    print("Fail")
+elif Marks <= 60:
+    print("Average")
+elif Marks <= 80:
+    print("Good")
+else:
+    print("Very Good")
