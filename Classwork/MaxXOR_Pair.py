@@ -8,6 +8,5 @@ def find_maximum_xor_pair(nums):
             max_xor = max(max_xor, xor_result)
     return max_xor
 
-# Example usage
 nums = [3, 10, 5, 25, 2, 8]
 print("Maximum XOR pair:", find_maximum_xor_pair(nums))
