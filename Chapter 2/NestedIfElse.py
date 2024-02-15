@@ -1,18 +1,18 @@
 # The greatest of the three numbers
 n1 = int(input("Enter the number 1: "))
-# n2 = int(input("Enter the number 2: "))
-# n3 = int(input("Enter the number 3: "))
+n2 = int(input("Enter the number 2: "))
+n3 = int(input("Enter the number 3: "))
 
-# if n1 > n2:
-#     if n1 > n3:
-#         print("The greatest number is",n1)
-#     else:
-#         print("The greatest number is",n3)
-# else:
-#     if n2 > n3:
-#         print("The greatest number is",n2)
-#     else:
-#         print("The greatest number is",n3)
+if n1 > n2:
+    if n1 > n3:
+        print("The greatest number is",n1)
+    else:
+        print("The greatest number is",n3)
+else:
+    if n2 > n3:
+        print("The greatest number is",n2)
+    else:
+        print("The greatest number is",n3)
 
 # Take positive integer input 
 # and tell if it is divisible by 5 or 3 

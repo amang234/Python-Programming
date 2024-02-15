@@ -1,3 +1,4 @@
+# Ternary Operators
 num1 = int(input("Enter the number: "))
 
 Even_odd = "Even" if num1%2==0 else "Odd"
