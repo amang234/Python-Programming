@@ -61,3 +61,19 @@ print(fruits)
 
 fruits.reverse()
 print(fruits)
+
+# List Comprehension
+new_fruits = [i for i in fruits if "a"in i]
+print(fruits)
+
+new_fruits=fruits.copy()
+print(new_fruits)
+
+new_fruits=fruits + new_fruits
+print(new_fruits)
+
+# Nested List
+fruits.insert(2,["Banana","Pear"])
+print(fruits)
+print(fruits[2])
+print(fruits[2][0])
