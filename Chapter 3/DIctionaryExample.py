@@ -12,4 +12,4 @@ print("Output:",sum(Dict.values()))
 
 Dict = {'x': 25, 'y':18, 'z':45}
 print(Dict.values())
-print("Output:",sum(Dict.values()))
+print("Output:",sum(Dict.values()))  
