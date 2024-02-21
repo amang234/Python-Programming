@@ -22,7 +22,7 @@ Suffix = String[N-1: ]
 # Finding the mirror string
 mirror = ""
 for i in range(0,len(Suffix)):
-    mirror = mirror + dict1[suffix[i]]
+    mirror = mirror + dict1[Suffix[i]]
 
 # Creating the final string
 Result = Prefix + mirror
