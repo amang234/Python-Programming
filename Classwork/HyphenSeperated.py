@@ -8,7 +8,8 @@ word_list = words.split('-')
 sorted_words = sorted(word_list)
 
 # Join the sorted words back into a hyphen-separated string
-sorted_sequence = '-'.join(sorted_words)
+# sorted_sequence = '-'.join(sorted_words)
 
 # Print the sorted sequence
-print("Sorted sequence:", sorted_sequence)
+print("Sorted sequence:", sorted_words)
+
